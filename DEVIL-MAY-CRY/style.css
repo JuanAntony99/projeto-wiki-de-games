@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=UnifrakturCook:wght@700&display=swap);
+
+body {
+  background: url("assets/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #f0f0f0;
+  font-family: UnifrakturCook;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid crimson;
+}
+header
+.logo {
+  width: 300px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: crimson;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: white;
+}
+
+main {
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+h2 {
+  color: crimson;
+  border-bottom: 2px solid crimson;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Transição de entrada */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  border-top: 2px solid crimson;
+}
