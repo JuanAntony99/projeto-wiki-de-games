@@ -7,81 +7,107 @@ html, body { height: 100%; width: 100%; }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
-    background-color: beige;
+    background-color: rgb(156, 156, 156);
     line-height: 1.6;
+    padding: 0 16px;
 }
 .navegacao-top {
     height: 60px;
-    background-color: cadetblue;
+    background-color: black;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: left;
-    font-size: 35px;
+    justify-content: center;
+    font-size: 1.5rem;
     font-weight: bold;
-    padding-left: 40px;
+    padding: 0 16px;
 }
 .site-footer {
     height: 60px;
-    background-color: cadetblue;
+    background-color: black;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: right;
-    font-size: 20px;
+    justify-content: center;
+    font-size: 1rem;
     font-weight: bold;
-    padding-right: 30px;
+    padding: 0 16px;
 }
 .conteiner-header {
-    margin-bottom: 30px;
-    margin-top: 20px;
+    margin: 20px 0 30px;
     text-align: center;
     line-height: 1.2;
-    font-size: 20px;
+    font-size: 1rem;
 }
 .conteiner-cadastro {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 30px;
+    padding: 0 8px 30px;
 }
 .card-cadastro {
     background-color: white;
     padding: 20px;
     margin-bottom: 30px;
-    border: 3px solid cadetblue;
+    border: 3px solid black;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(7, 211, 211, 0.637);
-    width: 500px;
+    box-shadow: 0 0 10px rgb(252, 253, 253);
+    width: 100%;
+    max-width: 500px;
 }
 .card-cadastro h2 {
-    border: 4px solid cadetblue;
-    border-radius: 90px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
 }
-#cadastro-form input {
-    border: 3px solid cadetblue;
-    text-align: center;
-    border-radius: 10px;
-    width: 460px;
-    height: 40px;
-    font-size: 18px;
+#cadastro-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
 }
 #cadastro-form label {
     font-weight: bold;
-}    
+    text-align: left;
+    font-size: 0.95rem;
+}
+#cadastro-form input {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: 44px;
+    font-size: 1rem;
+    padding: 6px 10px;
+    text-align: left;
+}
 #cadastro-form button {
-    margin-top: 15px;
-    width: 150px;
-    height: 40px;
-    font-size: 20px;
-    background-color: cadetblue;
+    margin-top: 6px;
+    width: 100%;
+    max-width: 200px;
+    align-self: center;
+    height: 44px;
+    font-size: 1rem;
+    background-color: black;
     color: white;
     border: none;
     border-radius: 10px;
     cursor: pointer;
 }
 #cadastro-form button:hover {
-    background-color: #2a5052;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+@media (min-width: 375px) { 
+    .navegacao-top { font-size: 1.75rem; justify-content: flex-start; padding-left: 24px; }
+    .site-footer { justify-content: flex-end; padding-right: 24px; }
+    .conteiner-header { font-size: 1.25rem; }
+    .card-cadastro { padding: 28px; }
+    #cadastro-form input { height: 48px; font-size: 1.05rem; }
+    #cadastro-form button { max-width: 180px; height: 48px; font-size: 1.05rem; }
+}
+@media (min-width: 900px) {
+    body { padding: 0; }
+    .conteiner-cadastro { padding: 40px; }
+    .card-cadastro { max-width: 900px; }
+    .navegacao-top { font-size: 2rem; padding-left: 40px; }
 }
