@@ -1,0 +1,29 @@
+body{
+    background:url("https://preview.redd.it/cmo0ctosk0i11.png?auto=webp&s=b48db0ddbad691ccf2e32330d6e70304aa5b95a5")no-repeat;
+    margin:40px;
+    padding:0;
+    background-size: cover;     
+    background-position: center;
+    color: rgb(255, 255, 255);  
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav il{
+    margin: 0 15px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+.logo{
+    text-align: center;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+}
