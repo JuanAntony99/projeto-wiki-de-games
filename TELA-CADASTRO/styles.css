@@ -99,7 +99,7 @@ body {
 }
 @media (min-width: 375px) { 
     .navegacao-top { font-size: 1.75rem; justify-content: flex-start; padding-left: 24px; }
-    .site-footer { justify-content: flex-end; padding-right: 24px; }
+    .site-footer { justify-content: center; padding-right: 24px; }
     .conteiner-header { font-size: 1.25rem; }
     .card-cadastro { padding: 28px; }
     #cadastro-form input { height: 48px; font-size: 1.05rem; }
