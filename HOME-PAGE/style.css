@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body { height: 100%; width: 100%; }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: rgb(156, 156, 156);
+    line-height: 1.8;
+}
+
+.container {
+    height: 120px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 40px;
+
+}
+.container h1 {
+    font-size: 40px;
+}
+
+.nav_header ul{
+    list-style: none;
+    display: flex;
+    gap: 17px;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    padding-right: 15px;    
+}
+
+.nav_header ul li a {
+    color: #ffffff; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}   
+
+.nav_header ul li a:hover {
+    color: rgb(156, 156, 156);
+}
+
+main{
+    margin-left: 50px
+}
+.busca_sobre_jogos {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.busca_sobre_jogos input {
+    box-shadow: 0 0 10px rgb(260, 260, 260);
+    padding: 20px;
+    width: 600px;
+    height: 60px;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.busca_sobre_jogos button {
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+button:active,button:hover {
+  transform: scale(0.95);
+  background-color: #323333;
+}
+.Categorias p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.Categorias{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+nav.nav_categorias ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    font-size: 25px;
+}
+
+nav.nav_categorias ul li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav.nav_categorias ul li a:hover {
+    color: white;
+}
+.Destaques{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.Destaques .box1,
+.Destaques .box2,
+.Destaques .box3 {
+    box-shadow: 0 0 10px rgb(260, 260, 260);
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(51, 50, 50, 0.7);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.Destaques a {
+    display: inline-block;
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: 2px solid rgb(156, 156, 156);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.Destaques a:hover {
+    background-color: rgb(156, 156, 156);
+    color: black;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(156, 156, 156, 0.2);
+}
+
+footer.rodapé {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
