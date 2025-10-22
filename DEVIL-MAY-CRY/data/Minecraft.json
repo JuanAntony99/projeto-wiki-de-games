@@ -1,0 +1,32 @@
+{
+  "1": {
+    "id": 1,
+    "title": "Informações Gerais",
+    "content": "<h1>Informações Gerais</h1><p>Minecraft, criado por Markus 'Notch' Persson e lançado oficialmente em 2011 pela Mojang, é um fenômeno cultural que redefiniu o conceito de jogos de construção em mundo aberto. A simplicidade gráfica contrasta com a imensa profundidade do gameplay, onde a criatividade do jogador é o principal motor da experiência. Desde então, Minecraft evoluiu com atualizações constantes, modos multiplayer robustos e uma comunidade global ativa que criou desde servidores customizados até mods inovadores.</p><p>O jogo oferece diversos modos, incluindo Sobrevivência, onde o jogador deve coletar recursos, fabricar ferramentas e enfrentar monstros, e Criativo, que libera recursos ilimitados para construir livremente. Sua estética pixelada, aliada à liberdade quase total, o torna acessível e ao mesmo tempo infinitamente rejogável, cativando jogadores de todas as idades e níveis.</p>"
+  },
+  "2": {
+    "id": 2,
+    "title": "Construções (Builds)",
+    "content": "<h1>Construções (Builds)</h1><p>A arte de construir em Minecraft vai muito além do simples empilhar blocos. Jogadores e arquitetos digitais exploram estilos arquitetônicos variados, desde castelos medievais detalhados até cidades futuristas e réplicas de monumentos famosos. A iluminação natural, feita com lanternas, tochas e luzes de redstone, é essencial para valorizar os detalhes e criar atmosferas específicas.</p><p>Dicas avançadas envolvem o uso de blocos de textura diferente para criar padrões e relevos, além de técnicas para adicionar vegetação, fontes de água e elementos decorativos que dão vida aos ambientes. Muitos construtores também aproveitam comandos e ferramentas externas para criar estruturas gigantescas e complexas, demonstrando que Minecraft é uma plataforma criativa de nível profissional.</p>"
+  },
+  "3": {
+    "id": 3,
+    "title": "Mods Populares",
+    "content": "<h1>Mods Populares</h1><p>O universo dos mods em Minecraft é vasto e diversificado, adicionando desde melhorias gráficas até mecânicas totalmente novas. Optifine é um dos mais populares, trazendo otimizações de performance, suporte a shaders e melhores efeitos visuais, que transformam a experiência visual do jogo.</p><p>Mods como Thaumcraft introduzem elementos de magia e alquimia, expandindo o gameplay com sistemas de pesquisa, encantamentos e criaturas místicas. Biomes O' Plenty adiciona uma enorme variedade de biomas inéditos, tornando a exploração mais rica e variada. Outros mods focam em tecnologia, agricultura, automação e até mecânicas econômicas, permitindo que o jogo se adapte a qualquer estilo.</p><p>A comunidade modding de Minecraft é uma das mais ativas do mundo dos jogos, constantemente criando novas possibilidades e expandindo os limites do que é possível construir e jogar.</p>"
+  },
+  "4": {
+    "id": 4,
+    "title": "Dicas de Sobrevivência",
+    "content": "<h1>Dicas de Sobrevivência</h1><p>Começar uma nova aventura em Minecraft pode ser desafiador para iniciantes. A prioridade inicial deve ser coletar madeira rapidamente, que é a base para fabricar ferramentas essenciais e construir um abrigo seguro antes da chegada da primeira noite, quando monstros hostis surgem.</p><p>Explorar com cautela é crucial: evite cavernas escuras sem armadura e armas, e sempre carregue tochas para iluminar o caminho. Alimentar-se é igualmente importante para manter a barra de fome cheia, o que influencia a regeneração de vida.</p><p>Construir uma base próxima a fontes de água e áreas com recursos variados facilita a sobrevivência. Aprender a cultivar plantas, domesticar animais e minerar com segurança torna o jogo mais sustentável a longo prazo. Estratégias como criar sistemas de defesa, usar arcos para ataques à distância e aproveitar o terreno para emboscadas aumentam as chances de sucesso.</p>"
+  },
+  "5": {
+    "id": 5,
+    "title": "Comandos Úteis",
+    "content": "<h1>Comandos Úteis</h1><p>Minecraft possui uma vasta gama de comandos que facilitam a jogabilidade, especialmente em modos criativo e servidor. O comando <code>/gamemode</code> permite mudar rapidamente entre modos de jogo, como sobrevivência, criativo e aventura, ideal para testar construções ou escapar de perigos.</p><p>O <code>/tp</code> (teleporte) é essencial para movimentação rápida entre locais distantes, economizando tempo em grandes mapas. Já o <code>/give</code> permite obter qualquer item instantaneamente, muito útil para testes ou para ajudar outros jogadores.</p><p>Outros comandos avançados incluem o <code>/effect</code> para aplicar efeitos especiais, <code>/summon</code> para invocar entidades, e <code>/scoreboard</code> para criar sistemas de pontuação customizados, muito usados em mapas de aventura e servidores competitivos.</p>"
+  },
+  "6": {
+    "id": 6,
+    "title": "Atualizações Recentes",
+    "content": "<h1>Atualizações Recentes</h1><p>A versão 1.20, conhecida como a atualização 'Trails & Tales', trouxe uma série de novidades que expandem a experiência de exploração e construção. Novos mobs como a anta e o camelo adicionam diversidade à fauna, enquanto blocos decorativos e ferramentas novas permitem construções mais detalhadas e funcionais.</p><p>Novas mecânicas, como o sistema de arqueologia, possibilitam descobrir artefatos antigos em escavações, enriquecendo o lore do jogo. A atualização também trouxe melhorias na qualidade de vida, como ajustes na interface e novas opções para facilitar o gerenciamento de inventário e interações multiplayer.</p><p>Com constantes atualizações, Minecraft mantém sua relevância e inovação, continuando a surpreender e engajar sua comunidade global.</p>"
+  }
+}

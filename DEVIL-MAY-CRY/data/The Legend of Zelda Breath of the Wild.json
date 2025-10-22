@@ -1,0 +1,22 @@
+{
+  "1": {
+    "id": 1,
+    "title": "Informações Gerais",
+    "content": "<h1>Informações Gerais</h1><p>The Legend of Zelda: Breath of the Wild, lançado em 2017 pela Nintendo, revolucionou a franquia Zelda ao apresentar um mundo aberto vasto e altamente interativo. Diferente dos títulos anteriores, o jogo permite ao jogador explorar Hyrule com liberdade quase total, incentivando a experimentação e a descoberta por meio de mecânicas inovadoras e uma narrativa minimalista mas envolvente.</p><p>Este título é frequentemente citado como um dos melhores jogos da história, graças à sua combinação de design de mundo aberto, física realista, puzzles inteligentes e uma trilha sonora ambiental que complementa a experiência imersiva.</p>"
+  },
+  "2": {
+    "id": 2,
+    "title": "Mundo Aberto e Exploração",
+    "content": "<h1>Mundo Aberto e Exploração</h1><p>Breath of the Wild oferece um dos maiores e mais detalhados mundos abertos já criados. O mapa de Hyrule é repleto de biomas variados, desde montanhas geladas, florestas densas, desertos escaldantes, até ruínas antigas e templos escondidos. A exploração é recompensada com a descoberta de santuários que funcionam como mini-dungeons, puzzles ambientais, segredos e materiais raros para crafting.</p><p>O jogador pode escalar praticamente qualquer superfície, usar o paraquedas para planar e interagir com praticamente todos os elementos do ambiente, o que incentiva a criatividade e múltiplas abordagens para resolver desafios.</p>"
+  },
+  "3": {
+    "id": 3,
+    "title": "Mecânicas de Sobrevivência",
+    "content": "<h1>Mecânicas de Sobrevivência</h1><p>O jogo introduz mecânicas de sobrevivência inéditas para a série, incluindo a necessidade de gerenciar a resistência de Link ao escalar, nadar e correr. Além disso, as condições climáticas afetam diretamente a jogabilidade; por exemplo, é necessário vestir roupas adequadas para o frio intenso das montanhas ou preparar comidas que aumentem a resistência ao calor no deserto.</p><p>A coleta de ingredientes naturais permite cozinhar refeições e elixires que restauram saúde, concedem bônus temporários ou resistências específicas, adicionando uma camada estratégica ao jogo.</p>"
+  },
+  "4": {
+    "id": 4,
+    "title": "Combate e Armas",
+    "content": "<h1>Combate e Armas</h1><p>O combate em Breath of the Wild é fluido e flexível, permitindo que o jogador utilize uma variedade de armas, cada uma com durabilidade limitada, o que incentiva a experimentação constante. Espadas, arcos, lanças, e até objetos do ambiente podem ser usados como armas.</p><p>Além disso, o uso do escudo para defesa, a esquiva e o ataque carregado são essenciais para enfrentar inimigos variados, desde monstros comuns até chefes poderosos. O ambiente também pode ser usado taticamente, como empurrar pedras, usar explosivos ou aproveitar condições climáticas para vantagem.</p>"
+  }
+}

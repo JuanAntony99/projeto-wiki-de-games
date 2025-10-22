@@ -1,0 +1,22 @@
+{
+  "1": {
+    "id": 1,
+    "title": "Informações Gerais",
+    "content": "<h1>Informações Gerais</h1><p>The Witcher 3: Wild Hunt, lançado em 2015 pela CD Projekt Red, é um RPG de ação aclamado por sua narrativa complexa, mundo aberto detalhado e personagens multifacetados. Inspirado nos livros de Andrzej Sapkowski, o jogo coloca o jogador no papel de Geralt de Rívia, um caçador de monstros profissional, em uma missão para encontrar sua filha adotiva em meio a uma guerra devastadora e intrigas políticas.</p><p>O jogo é reconhecido pela liberdade que oferece na forma como histórias são contadas, com múltiplas ramificações e finais baseados nas escolhas do jogador, além de um sistema de combate que combina magia, alquimia e combate corpo a corpo.</p>"
+  },
+  "2": {
+    "id": 2,
+    "title": "Combate e Magia",
+    "content": "<h1>Combate e Magia</h1><p>O sistema de combate em The Witcher 3 é dinâmico e estratégico, exigindo que o jogador escolha entre espadas de aço para humanos e aço de prata para monstros, além de usar sinais mágicos — feitiços simples mas eficazes — para controlar o campo de batalha. Além disso, poções, óleos e bombas são elementos cruciais para preparar Geralt para diferentes tipos de inimigos.</p><p>O combate varia entre confrontos diretos e furtividade, com a possibilidade de esquivar, bloquear e contra-atacar, além da utilização de armadilhas. Cada inimigo apresenta fraquezas específicas que incentivam o uso inteligente dos recursos disponíveis.</p>"
+  },
+  "3": {
+    "id": 3,
+    "title": "Missões Secundárias",
+    "content": "<h1>Missões Secundárias</h1><p>As missões secundárias em The Witcher 3 são muito mais do que tarefas secundárias tradicionais. Elas possuem histórias complexas, personagens profundos e muitas vezes consequências tão significativas quanto a trama principal. Missões como 'A Noite dos Corvos' ou 'O Mestre dos Monstros' trazem desafios, decisões morais difíceis e recompensas únicas.</p><p>Essas missões enriquecem o mundo do jogo, revelando detalhes sobre a cultura, política e conflitos da região, além de expandir o background dos personagens que Geralt encontra. Muitas vezes, os jogadores se veem emocionalmente envolvidos, enfrentando dilemas que não possuem respostas simples.</p>"
+  },
+  "4": {
+    "id": 4,
+    "title": "Expansões",
+    "content": "<h1>Expansões</h1><p>The Witcher 3 recebeu duas expansões extremamente bem avaliadas: Hearts of Stone e Blood and Wine. Hearts of Stone adiciona cerca de 20 horas de conteúdo, incluindo uma trama envolvente com novos personagens e um antagonista memorável, explorando temas de moralidade e destino.</p><p>Blood and Wine oferece uma nova região completa, Toussaint, um reino vibrante e colorido que contrasta com o tom sombrio do jogo principal. Com mais de 30 horas de gameplay, essa expansão introduz novas missões, monstros, armaduras e um final adicional, consolidando The Witcher 3 como uma obra-prima do gênero RPG.</p>"
+  }
+}
