@@ -32,6 +32,9 @@ body {
     font-size: 1rem;
     font-weight: bold;
     padding: 0 16px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 .conteiner-header {
     margin: 20px 0 30px;
