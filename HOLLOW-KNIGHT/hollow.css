@@ -1,29 +1,87 @@
-body{
-    background:url("https://preview.redd.it/cmo0ctosk0i11.png?auto=webp&s=b48db0ddbad691ccf2e32330d6e70304aa5b95a5")no-repeat;
-    margin:40px;
-    padding:0;
-    background-size: cover;     
-    background-position: center;
-    color: rgb(255, 255, 255);  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-nav ul{
-    display: flex;
-    justify-content: center;
-}
-nav il{
-    margin: 0 15px;
-}
-nav a{
-    text-decoration: none;
+html, body { height: 100%; width: 100%; }
+body {
+    background: url("https://images5.alphacoders.com/985/thumb-1920-985300.jpg") no-repeat center center fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 1.2em;
-    transition: color 0.3s ease;
+    background-color: rgb(156, 156, 156);
+    line-height: 1.8;
+}
+@media (max-width: 600px) {
+  /* mobile overrides: empilhar nav, reduzir espaçamentos */
+  .logo{
+    margin-top: 20px;
+  }
+
+  nav ul{
+    flex-direction: column;
+    gap: 8px;
+    padding: 6px 0;
+    align-items: center;
+  }
+
+  nav li{
+    margin: 6px 0;
+  }
+
+  nav a{
+    font-size: 1em;
+  }
+
+  main{
+    padding: 14px;
+    background-color: rgba(0,0,0,0.45);
+    color: #ffffff;
+    border-radius: 6px;
+  }
+
+  footer{
+    padding: 12px;
+  }
 }
 .logo{
-    text-align: center;
+  margin-top:60px;
+  display: flex;
+  justify-content: center;
 }
-footer {
+nav ul {
+  gap: 1px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: white;
+}
+main {
+  padding:50px 100px;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: #ffffff;
+  border-radius: 8px;
+}
+footer{
   text-align: center;
   padding: 20px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.História,.Mapa, .Mundo, .Personagens {
+  margin-bottom: 50px;
 }

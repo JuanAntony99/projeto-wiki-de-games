@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap);
 
 body {
-  background: url("assets/BG/f047a8d2e0f04a1ecf7125bbe20d75d7.jpeg") no-repeat center center fixed;
+  background: url("assets/BG/Devil\ May\ Cry-BG.png") no-repeat center center fixed;
   background-size: cover;
   color: #f0f0f0;
   font-family: UnifrakturCook;
@@ -43,7 +43,7 @@ nav a:hover {
 }
 
 main {
-  padding: 40px;
+  padding:50px 100px;
   background-color: rgba(0, 0, 0, 0.75);
 }
 
@@ -58,7 +58,6 @@ h2 {
   margin-bottom: 15px;
 }
 
-/* Transição de entrada */
 .fade-in {
   opacity: 0;
   transform: translateY(20px);
