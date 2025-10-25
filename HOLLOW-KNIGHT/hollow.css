@@ -76,12 +76,19 @@ main {
   color: #ffffff;
   border-radius: 8px;
 }
-footer{
+footer p{
+  display: flex;
   text-align: center;
+  justify-content: center;
   padding: 20px;
   background-color: rgb(0, 0, 0);
   color: white;
 }
 .História,.Mapa, .Mundo, .Personagens {
   margin-bottom: 50px;
+}
+
+.menu {
+  background-color: rgba(0, 0, 0, 0.45);
+
 }
