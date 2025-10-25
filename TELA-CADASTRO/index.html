@@ -22,13 +22,16 @@
         <h2>Cadastre-se!</h2>
         <form id="cadastro-form">
             <label for="nome-pessoa">Seu nome:</label>
-            <input type="text" id="nome-pessoa" name="nome-pessoa" required>
+            <input type="text" id="nomePessoa" name="nomePessoa" required>
+            <small class="erro" id="erroNome"></small>
 
             <label for="email">Email para cadastro:</label>
             <input type="email" id="email" name="email" required>
+            <small class="erro" id="erroEmail"></small>
 
             <label for="senha">Senha de login:</label>
             <input type="password" id="senha" name="senha" required>
+            <small class="erro" id="erroSenha"></small>
 
             <button type="submit">Cadastrar</button>
         </form>
