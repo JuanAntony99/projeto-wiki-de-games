@@ -18,6 +18,13 @@ body {
   font-size: 2rem;
 }
 
+.nav-container {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
 header {
   background: rgba(0, 0, 0, 0.8);
   padding: 20px;
@@ -84,6 +91,20 @@ footer {
   background-color: #111;
   border-top: 2px solid crimson;
 }
+
+.back-btn {
+    display: inline-block;
+    color: #ff0000;
+    padding: 2px 4px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 3px 0 3px 0;
+}
+.back-btn:hover {
+  opacity: 0.9;
+}
+
 @media (min-width: 375px) and (max-width: 768px) {
   body{
     font-size: 1.0rem;

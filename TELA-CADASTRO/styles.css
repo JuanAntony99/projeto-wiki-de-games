@@ -100,21 +100,50 @@ body {
 }
 
 a {
-    text-decoration: none; /* remove o sublinhado */
-    color: white;          /* muda a cor do link */
+    text-decoration: none;
+    color: white;          
   }
   
 @media (min-width: 375px) { 
-    .navegacao-top { font-size: 1.75rem; justify-content: flex-start; padding-left: 24px; }
-    .site-footer { justify-content: center; padding-right: 24px; }
-    .conteiner-header { font-size: 1.25rem; }
-    .card-cadastro { padding: 28px; }
-    #cadastro-form input { height: 48px; font-size: 1.05rem; }
-    #cadastro-form button { max-width: 180px; height: 48px; font-size: 1.05rem; }
+    .navegacao-top { 
+        font-size: 1.75rem; 
+        justify-content: flex-start; 
+        padding-left: 24px; 
+    }
+    .site-footer { 
+        justify-content: center; 
+        padding: 34px;
+        margin-top: 81px; 
+    }
+    .conteiner-header { 
+        font-size: 1.25rem; 
+    }
+    .card-cadastro { 
+        padding: 28px; 
+    }
+    #cadastro-form input { 
+        height: 48px; 
+        font-size: 1.05rem; 
+    }
+    #cadastro-form button { 
+        max-width: 180px; 
+        height: 48px; 
+        font-size: 1.05rem; 
+    }
 }
 @media (min-width: 900px) {
     body { padding: 0; }
-    .conteiner-cadastro { padding: 40px; }
-    .card-cadastro { max-width: 900px; }
-    .navegacao-top { font-size: 2rem; padding-left: 40px; }
+    .conteiner-cadastro { 
+        padding: 40px; 
+    }
+    .card-cadastro { 
+        max-width: 900px; 
+    }
+    .navegacao-top { 
+        font-size: 2rem; 
+        padding-left: 40px; 
+    }
+    .site-footer { 
+        margin-top: 142px;
+    }
 }

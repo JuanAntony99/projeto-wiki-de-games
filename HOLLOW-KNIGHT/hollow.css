@@ -11,36 +11,78 @@ body {
     background-color: rgb(156, 156, 156);
     line-height: 1.8;
 }
+/* Mobile First Approach */
 @media (max-width: 600px) {
-  /* mobile overrides: empilhar nav, reduzir espaçamentos */
-  .logo{
-    margin-top: 20px;
+  .logo {
+    margin-top: 60px;
   }
 
-  nav ul{
+  .logo img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  nav ul {
     flex-direction: column;
     gap: 8px;
     padding: 6px 0;
     align-items: center;
   }
 
-  nav li{
+  nav li {
     margin: 6px 0;
+    width: 100%;
+    text-align: center;
   }
 
-  nav a{
-    font-size: 1em;
+  nav a {
+    font-size: 1.1em;
+    padding: 8px 0;
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
   }
 
-  main{
-    padding: 14px;
-    background-color: rgba(0,0,0,0.45);
-    color: #ffffff;
-    border-radius: 6px;
+  main {
+    padding: 15px;
+    margin: 10px;
+    width: auto;
   }
 
-  footer{
-    padding: 12px;
+  hr {
+    margin: 15px 0;
+  }
+
+  .História, .Mapa, .Mundo, .Personagens {
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+
+  footer {
+    padding: 15px;
+    margin-top: 30px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 900px) {
+  .logo img {
+    max-width: 90%;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  nav li {
+    margin: 5px 10px;
+  }
+
+  main {
+    padding: 30px;
+    margin: 20px auto;
   }
 }
 .logo{
@@ -71,12 +113,16 @@ nav a:hover {
   color: white;
 }
 main {
-  padding:50px 100px;
+  padding: clamp(20px, 5vw, 100px);
   background-color: rgba(0, 0, 0, 0.45);
   color: #ffffff;
   border-radius: 8px;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 95%;
 }
-footer p{
+
+footer p {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -84,11 +130,38 @@ footer p{
   background-color: rgb(0, 0, 0);
   color: white;
 }
-.História,.Mapa, .Mundo, .Personagens {
+
+.História, .Mapa, .Mundo, .Personagens {
   margin-bottom: 50px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.6;
 }
 
 .menu {
   background-color: rgba(0, 0, 0, 0.45);
+}
 
+.back-btn {
+  display: inline-block;
+  background: #222;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 8px 0 12px 0;
+}
+.back-btn:hover {
+  opacity: 0.9;
 }
