@@ -8,7 +8,6 @@ body {
   height: 100%;
   width: 100%;
 }
-
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: black;
@@ -26,6 +25,10 @@ body {
   font-weight: bold;
   padding: 0 16px;
 }
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
 .site-footer {
   height: 60px;
   background-color: black;
@@ -41,41 +44,34 @@ body {
   width: 100%;
 }
 .sobre {
-  background: linear-gradient(180, #111 0%, #1c1c1c 100%);
-  border: 1px solid #222;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #080808;
   border-radius: 12px;
   padding: 40px 30px;
   text-align: center;
   max-width: 900px;
   margin: 60px auto;
-  box-shadow: 0 0 25px rgba(0, 191, 255, 0.15);
-}
-.sobre h2 {
-  color: #00bfff;
-  font-size: 1.1em;
-  margin-bottom: 15px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  box-shadow: 0 0 10px rgb(260, 260, 260);
 }
 .sobre p {
   color: #000000;
-  font-size: 1.1em;
+  font-size: 1.5em;
   max-width: 750px;
-  margin: 0 auto;
 }
 .sobre strong {
-  color: #00ffff;
+  color: #0c0c0c;
   font-weight: bold;
 }
 
 .sobre:hover {
   transform: scale(1.01);
   transition: 0.3s ease;
-  box-shadow: 0 0 35px rgba(0, 191, 255, 0.25);
+  box-shadow: 0 0 35px rgba(249, 250, 250, 0.25);
 }
 .sobre p::first-letter {
   font-size: 1.4cm;
-  color: #00bfff;
+  color: #030303;
   font-weight: bold;
 }
 @media (min-width: 375px) {
