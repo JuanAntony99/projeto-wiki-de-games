@@ -11,3 +11,5 @@ function checkFade() {
 
 window.addEventListener('scroll', checkFade);
 window.addEventListener('load', checkFade);
+
+document.getElementById('year').textContent = new Date().getFullYear();
